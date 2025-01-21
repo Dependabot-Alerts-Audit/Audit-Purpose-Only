@@ -4,7 +4,7 @@ const products = [
     { id: 2, name: 'Product 2', price: 149.99 },
     { id: 3, name: 'Product 3', price: 79.99 }
 ];
-
+//just for testing 
 // Add to cart functionality
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', () => {
