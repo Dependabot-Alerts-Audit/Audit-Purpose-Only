@@ -1,8 +1,8 @@
 let cartCount = 1;
 const products = [
-    { id: 1, name: 'Product 1', price: 99.99 },
-    { id: 2, name: 'Product 2', price: 149.99 },
-    { id: 3, name: 'Product 3', price: 79.99 }
+    { id: 1, name: 'Product 1', price: 98.9 },
+    { id: 2, name: 'Product 2', price: 49.99 },
+    { id: 3, name: 'Product 3', price: 89.99 }
 ];
 //just for testing 
 // Add to cart functionality
