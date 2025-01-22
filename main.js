@@ -7,7 +7,7 @@ const products = [
      { id: 4, name: 'Product 4', price: 99.99 },
     { id: 5, name: 'Product 5', price: 149.99 },
     { id: 6, name: 'Product 6', price: 79.99 }
-];
+]; 
 //just for testing 
 // Add to cart functionality
 document.querySelectorAll('.add-to-cart').forEach(button => {
