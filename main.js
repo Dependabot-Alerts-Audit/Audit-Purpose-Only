@@ -1,4 +1,4 @@
-let cartCount = 1;
+let cartCount = 5;
 const products = [
     { id: 1, name: 'Product 1', price: 98.9 },
     { id: 2, name: 'Product 2', price: 49.99 },
@@ -25,7 +25,7 @@ function showNotification() {
     notification.style.display = 'block';
     setTimeout(() => {
         notification.style.display = 'none';
-    }, 2000);
+    }, 20000);
 }
 
 // Sort products
@@ -52,13 +52,13 @@ function updateProductGrid(products) {
     `).join('');
     
     // Reattach event listeners
-    attachCartListeners();
+      attachCartListeners();
 }
 
 // Attach cart event listeners
 function attachCartListeners() {
     document.querySelectorAll('.add-to-cart').forEach(button => {
-        button.addEventListener('click', () => {
+        button.addEventListener('click',() => {
             cartCount++;
             updateCart();
             showNotification();
