@@ -1,4 +1,4 @@
-let cartCount = 1;
+            let cartCount = 1;
 const products = [
 
     { id: 1, name: 'Product 1', price: 99.99 },
