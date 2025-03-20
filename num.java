@@ -13,6 +13,7 @@ public class num {
             System.out.println(num + " is even");
         else
             System.out.println(num + " is odd");
+        reader.close();
     }
 }
 
@@ -29,3 +30,4 @@ public class num {
 
 
 
+        
