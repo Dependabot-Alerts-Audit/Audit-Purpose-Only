@@ -17,6 +17,7 @@ public class num {
         reader.close();
         reader.close();
         reader.close();
+        reader.close();
     }
 }
 
