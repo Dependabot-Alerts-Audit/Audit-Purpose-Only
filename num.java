@@ -14,6 +14,7 @@ public class num {
         else
             System.out.println(num + " is odd");
         reader.close();
+        reader.close();
     }
 }
 
@@ -29,5 +30,6 @@ public class num {
 
 
 
-
+
+
         
