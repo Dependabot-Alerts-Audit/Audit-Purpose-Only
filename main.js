@@ -1,15 +1,10 @@
-            let cartCount = 1;
-let cartCount = 5;
+let cartCount = 0;
 const products = [
-
-    { id: 1, name: 'Product 1', price: 99.99 },
-    { id: 2, name: 'Product 2', price: 149.99 },
-    { id: 3, name: 'Product 3', price: 79.99 },
-    { id: 4, name: 'Product 4', price: 99.99 },
-    { id: 5, name: 'Product 5', price: 149.99 },
-    { id: 6, name: 'Product 6', price: 79.99 }
+    { id: 1, name: 'Product 1', price: 98.9 },
+    { id: 2, name: 'Product 2', price: 49.99 },
+    { id: 3, name: 'Product 3', price: 89.99 }
 ];
-//just for testing 
+
 // Add to cart functionality
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', () => {
@@ -23,6 +18,9 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
 function updateCart() {
     document.getElementById('count').textContent = cartCount;
 }
+
+// Initialize cart display on page load
+updateCart();
 
 // Show notification
 function showNotification() {
