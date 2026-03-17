@@ -1,10 +1,10 @@
-let cartCount = 5;
+let cartCount = 0;
 const products = [
     { id: 1, name: 'Product 1', price: 98.9 },
     { id: 2, name: 'Product 2', price: 49.99 },
     { id: 3, name: 'Product 3', price: 89.99 }
 ];
-//just for testing 
+
 // Add to cart functionality
 document.querySelectorAll('.add-to-cart').forEach(button => {
     button.addEventListener('click', () => {
@@ -18,6 +18,9 @@ document.querySelectorAll('.add-to-cart').forEach(button => {
 function updateCart() {
     document.getElementById('count').textContent = cartCount;
 }
+
+// Initialize cart display on page load
+updateCart();
 
 // Show notification
 function showNotification() {
